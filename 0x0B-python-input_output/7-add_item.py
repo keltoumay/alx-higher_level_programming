@@ -19,6 +19,6 @@ if __name__ == "__main__":
         list_obj = load_from_json_file(file_path)
     else:
         list_obj = list()
-    
+
     save_to_json_file(list_obj + argv, file_path)
     print(end="")
